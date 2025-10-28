@@ -1,47 +1,6 @@
-/*
---- 01 TYPOGRAPHY SYSTEM
-
-FONT SIZE SYSTEM (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-
-font weights:
-Default: 400
-medium: 500
-semi-bold: 600
-bold:700
-
-Line Heights:
-Default: 1
-small: 1.05
-Medium: 1.2
-paragraph default: 1.6
-
-Letter spacing
--0.5px
-0.75px
-
-SPACING SYSTEM (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-
----COLORS
--Primary:  #e67e22
--Tints:#fdf2e9, #fae5d3 #eb984e
--Shades: 
--Accents: 
--Greys 
-#6f6f6f lightest grey allowed on #fdf2e9
-#555
-#333
-#767676
-
----05 SHADOWS
- box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
----06 BORDER-RADIUS
-default: 9px
-medium: 11px
----07 WHITE SPACE
-*/
-
+/*****************/
+/*GENERAL STYLES*/
+/******************/
 * {
   padding: 0;
   margin: 0;
