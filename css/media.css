@@ -1,0 +1,47 @@
+@media (max-width: 924px) {
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+  .cta-img-box {
+    height: 32rem;
+    grid-row: 1;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 700px) {
+  .heading {
+    font-size: 6.2rem;
+  }
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1.2rem;
+  }
+}
+@media (max-width: 412px) {
+  .heading {
+    font-size: 4.4rem;
+  }
+  .head {
+    font-size: 2rem;
+  }
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    margin-top: 1.2rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 2rem;
+  }
+}

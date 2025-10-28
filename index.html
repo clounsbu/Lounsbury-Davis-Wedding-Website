@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brittany & Chris</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bilbo+Swash+Caps&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Monsieur+La+Doulaise&family=Nosifer&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="heading">From Hinge to Hitched</h1>
+
+      <div class="date">
+        <p class="tagline">Brittany &amp; Chris</p>
+        <p>October 18, 2025 &#10087; John W. Higgins Armory</p>
+        <p>100 Barber Ave, Worcester, MA 01606</p>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="./index.html">Home</a></li>
+          <li><a class="main-nav-link" href="#cta">RSVP</a></li>
+          <li>
+            <a class="main-nav-link" href="./html/schedule.html">Schedule</a>
+          </li>
+          <li>
+            <a
+              class="main-nav-link"
+              href="https://warpbin.com/drive/Om4k5Nm1iI"
+              target="_blank"
+              >Gallery</a
+            >
+          </li>
+          <li>
+            <a
+              class="main-nav-link"
+              href="https://www.amazon.com/wedding/registry/7QL53NKX803Z"
+              target="_blank"
+              >Registry</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="hero">
+          <img
+            class="hero-img"
+            src="./images/Engagement1-51.jpg"
+            alt="Brittany and Chris walking down alley"
+          />
+        </div>
+      </section>
+      <div class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">RSVP</h2>
+
+              <form action="#" class="cta-form" name="sign-up" netlify>
+                <div>
+                  <label for="first-name">First Name</label>
+                  <input
+                    id="first-name"
+                    type="text"
+                    placeholder="First Name"
+                    name="first-name"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="last-name">Last Name</label>
+                  <input
+                    id="last-name"
+                    type="text"
+                    placeholder="Last Name"
+                    name="last-name"
+                    required
+                  />
+                </div>
+                <textarea
+                  name="plusOne"
+                  id="plus1"
+                  placeholder="List additional attendees here"
+                ></textarea>
+                <div>
+                  <label for="attendance">Can you attend?</label>
+
+                  <select id="attendance" name="attendance" required>
+                    <option value="">Please choose one option</option>
+                    <option value="yes">Yes, I'll be there!</option>
+                    <option value="no">Sorry, I can't make it</option>
+                  </select>
+                </div>
+                <button class="btn btn--form">RSVP</button>
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Brittany and Chris kissing"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>© <span class="date">2025</span> Brittany & Chris</p>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

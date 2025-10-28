@@ -1,0 +1,31 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* align-items: center; */
+}
+.head {
+  font-family: "Beau Rivage", cursive;
+  font-size: 5.4rem;
+  color: #d9b47b;
+  margin-top: 50px;
+  text-align: center;
+}
+.list-group-item {
+  color: #4d0013;
+  background-color: #d9b47b;
+  font-size: 2.4rem;
+}
+.schedule {
+  margin-top: 20px;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+}
+.clock {
+  font-weight: 600;
+  margin-right: 15px;
+}
